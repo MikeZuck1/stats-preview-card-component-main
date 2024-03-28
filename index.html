@@ -1,30 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="/styles/styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Stats preview card component</title>
 </head>
 <body>
+
+  <main>
+    <!-- CONTAINER -->
+    <div class="container">
+      <!-- LEFT-SIDE -->
+      <div class="left-side">
+        <div class="content-left-side">
+          <h1>Get <span>insights</span> that help your business grow.</h1>
+
+          <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+            experience, and overall efficiency.</p> 
+        </div>
+
+        <div class="statistics-numbers">
+          <div class="company-statistics"> 
+             <span>10k+</span> 
+             <div class="companies">Companies</div>
+          </div>
+          <div class="templates-statistics">
+             <span>314</span> 
+             <div class="templates">Templates</div>
+          </div>
+          <div class="querys-statistics">
+             <span>12m+</span> 
+             <div class="queries">Queries</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE --> 
+      <div class="right-side">
+        <picture>
+          <source media="(min-width: )" srcset="./images/image-header-mobile.jpg">
+          <img src="./images/image-header-desktop.jpg" alt="image-header">
+        </picture>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>
+
+<!--
 
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
-</html>
-
-<!--
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
+  </div> 
 -->

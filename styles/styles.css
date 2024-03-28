@@ -3,9 +3,94 @@
     padding: 0;
 }
 
+/* BODY */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+}
+
+/* ======MAIN CONTAINER ======= */
+.container { 
+    display: flex; /* Utilise un CSS Grid */
+    background-color: hsl(244, 38%, 16%);
+    width: 1000px;
+    height: 450px; 
+}
+
+.left-side, 
+.right-side {
+    flex: 1;
+}
+
+/* ====== RIGHT SIDE ======= */
+.right-side img { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* ======LEFT SIDE ======== */
+.content-left-side {
+    margin-top: 70px;
+    margin-left: 50px;
+    width: 350px;
+}
+
+.left-side, 
+.content-left-side h1 {
+    color: hsl(0, 0%, 100%);
+    font-family: "roboto", sans-serif;
+}
+
+.left-side, 
+.content-left-side span {
+    color: hsl(277, 64%, 61%);
+}
+
+p { 
+    margin-top: 50px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* ======= STATISTIC CONTAINER ======= */
+.statistics-numbers {
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.company-statistics, 
+.templates-statistics,
+.querys-statistics {
+    display: inline-block;
+}
+
+.statistics-numbers, 
+.company-statistics span {
+    font-size: 20px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.companies,
+.templates {
+    margin-right: 50px;
+} 
+
+.companies,
+.templates, 
+.queries {
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+
+/* ======  FOOTER INFORMATIONS ====== */
 .attribution { 
-    font-size: 11px; 
-    text-align: center; 
+    font-size: 11px;
+    text-align: center;
 }
 
 .attribution a { 
