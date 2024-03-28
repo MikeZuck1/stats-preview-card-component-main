@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-/* BODY */
+/* ===== BODY ===== */
 body {
     display: flex;
     align-items: center;
@@ -12,12 +12,12 @@ body {
     background-color: hsl(233, 47%, 7%);
 }
 
-/* ======MAIN CONTAINER ======= */
+/* ====== MAIN CONTAINER ======= */
 .container { 
     display: flex; /* Utilise un CSS Grid */
     background-color: hsl(244, 38%, 16%);
     width: 1000px;
-    height: 450px; 
+    height: 450px;
 }
 
 .left-side, 
@@ -34,7 +34,7 @@ body {
     height: 100%;
 }
 
-/* ======LEFT SIDE ======== */
+/* ====== LEFT SIDE ======== */
 .content-left-side {
     margin-top: 70px;
     margin-left: 50px;
